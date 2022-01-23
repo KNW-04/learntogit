@@ -1,0 +1,30 @@
+First, if you're using git for the first time on your computer, you need to conduct these process below:
+    1. open terminal and type these commands:
+        git config --global user.name "your github name here"
+        git config --global user.email "your github email here"
+    
+Setting up your project local repository:
+    1. Go to the folder that you'll use as a local repository
+    2. type cd (folder path) on your terminal
+    3. type this command:
+        git init
+
+    
+Uploading a file to github
+    - to connect your folder and the online repository, you need to type this command with your terminal ready.
+        git remote add origin (your github repository link)
+
+        your terminal should be directed to the folder where you're working with git
+        (for example, if your folder name is Git Practice, your terminal should start with:
+        (base) namgyuwoo@Namgyus-MacBook-Pro Git Practice % )
+    
+    - git add .
+    this command adds your file to a temporary repository on your computer, which called "Index."
+    make sure you have a blank space between add and .
+    . means you would like to upload all files in your local repository.
+
+    - git commit -m "Comment"
+    This is used when you commit your file.
+    You should review your file several times before you use it.
+
+    
